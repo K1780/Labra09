@@ -1,0 +1,19 @@
+﻿<Window x:Class="Teht03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tehtävä_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtLeveys" HorizontalAlignment="Left" Height="31" Margin="106,38,0,0" TextWrapping="Wrap" Text="Lasin leveys" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="txtKorkeus" HorizontalAlignment="Left" Height="31" Margin="106,83,0,0" TextWrapping="Wrap" Text="Lasin korkeus" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="txtKarmi" HorizontalAlignment="Left" Height="31" Margin="106,132,0,0" TextWrapping="Wrap" Text="Karmin paksuus" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="btnLaske" Content="Laske" HorizontalAlignment="Left" Height="26" Margin="106,179,0,0" VerticalAlignment="Top" Width="143" Click="btnLaske_Click"/>
+        <TextBlock x:Name="txtIkkunanPintaAla" HorizontalAlignment="Left" Height="25" Margin="106,220,0,0" TextWrapping="Wrap" Text="Ikkunan Pinta-ala: " VerticalAlignment="Top" Width="143"/>
+        <TextBlock x:Name="txtLasinPintaAla" HorizontalAlignment="Left" Height="25" Margin="106,250,0,0" TextWrapping="Wrap" Text="Lasin Pinta-ala: " VerticalAlignment="Top" Width="143"/>
+        <TextBlock x:Name="txtKarminPiiri" HorizontalAlignment="Left" Height="25" Margin="106,275,0,0" TextWrapping="Wrap" Text="Karmin piiri: " VerticalAlignment="Top" Width="143"/>
+
+    </Grid>
+</Window>

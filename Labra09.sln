@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra09", "Labra09\Labra09.csproj", "{DB16CB4D-C39C-4DBA-AC78-0AE8F025A07A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtävä 1", "Labra09\Tehtävä 1.csproj", "{DB16CB4D-C39C-4DBA-AC78-0AE8F025A07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtävä 2", "Tehtävä 2\Tehtävä 2.csproj", "{587EBAB9-3F62-43A4-85B4-A06F2DDC2397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä 3", "tehtävä 3\tehtävä 3.csproj", "{4A8DA723-E6E4-418E-9D7C-F7E07B5442D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DB16CB4D-C39C-4DBA-AC78-0AE8F025A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB16CB4D-C39C-4DBA-AC78-0AE8F025A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB16CB4D-C39C-4DBA-AC78-0AE8F025A07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587EBAB9-3F62-43A4-85B4-A06F2DDC2397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587EBAB9-3F62-43A4-85B4-A06F2DDC2397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587EBAB9-3F62-43A4-85B4-A06F2DDC2397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587EBAB9-3F62-43A4-85B4-A06F2DDC2397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8DA723-E6E4-418E-9D7C-F7E07B5442D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8DA723-E6E4-418E-9D7C-F7E07B5442D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8DA723-E6E4-418E-9D7C-F7E07B5442D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8DA723-E6E4-418E-9D7C-F7E07B5442D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

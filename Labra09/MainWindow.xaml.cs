@@ -20,9 +20,31 @@ namespace Labra09
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int CarsCount = 0;
+        public int TrucksCount = 0;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            // add 1 to TrucksCount 
+            TrucksCount++;
+            // show output to output1
+            trucksTextBlock.Text = "Trucks " + TrucksCount;
+
+
+        }
+
+        private void carsButton_Click(object sender, RoutedEventArgs e)
+        {
+            // add 1 to CarsCount
+            CarsCount++;
+            // Show output
+            carsTextBlock.Text = "Cars " + CarsCount;
+
         }
     }
 }
